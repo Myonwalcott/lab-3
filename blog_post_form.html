@@ -1,47 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
+
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 <title>Blog Post Submission Form</title>
 
 <link rel="stylesheet" href="blogpost.css">
 
 </head>
-<body>
 
-<div class="container">
-    <h1>Blog Post Submission Form</h1>
-    <form id="blogPostForm">
-        <label for="postTitle">Title:</label>
-        <input type="text" id="postTitle" name="postTitle" required>
-        
-        <label for="authorName">Author's Name:</label>
-        <input type="text" id="authorName" name="authorName" required>
-        
-        <label for="postContent">Content:</label>
-        <textarea id="postContent" name="postContent" required></textarea>
-        
-        <label for="postCategory">Category:</label>
-        <select id="postCategory" name="postCategory" required>
-            <option value="">Select Category</option>
-            <option value="technology">Technology</option>
-            <option value="lifestyle">Lifestyle</option>
-            <option value="fashion">Fashion</option>
-            <option value="travel">Travel</option>
-            <option value="food">Food</option>
-        </select>
-        
-        <input type="submit" value="Submit">
-        <button type="button" onclick="showAlert()">Cancel</button>
-    </form>
-</div>
 
-<script>
-    function showAlert() {
-        alert("Form submitted!");
-    }
-</script>
+                <body>
+
+                <div class="container">
+                    <h1>Blog Post Submission Form</h1>
+                    <form id="blogPostForm">
+                        <label for="postTitle">Title:</label>
+                        <input type="text" id="postTitle" name="postTitle" required>
+                        
+                        <label for="authorName">Author's Name:</label>
+                        <input type="text" id="authorName" name="authorName" required>
+
+                        <label for="authoremail">Author's Email:</label>
+                        <input type="text" id="authoremail" name="email" required>
+                        
+                        <label for="postContent">Content:</label>
+                        <textarea id="postContent" name="postContent" required></textarea>
+                        
+                        <label for="postCategory">Category:</label>
+                                <select id="postCategory" name="postCategory" required>
+                                    <option value="">Select Category</option>
+                                    <option value="technology">Technology</option>
+                                    <option value="lifestyle">Lifestyle</option>
+                                    <option value="fashion">Fashion</option>
+                                    <option value="travel">Travel</option>
+                                    <option value="food">Food</option>
+                                </select>
+                        
+                        <input type="submit" value="Submit">
+                        <button type="button" onclick="showAlert()">Cancel</button>
+                    </form>
+                </div>
+
+                <script>
+                    function showAlert() {
+                        alert("Form submitted!");
+                    }
+                </script>
 
 </body>
 </html>
