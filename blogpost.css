@@ -2,12 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+   
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/557/555/original/abstract-bubbles-on-a-red-background-free-vector.jpg');
+                        
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container {
     max-width: 600px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color:rgb(238, 139, 157);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
