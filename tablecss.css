@@ -58,3 +58,9 @@ table {
                                                         padding: 20px; 
                                                         margin: 10px;                                                        
                                                         flex-grow: 1; }
+                                                        .container {
+                                                            width: 100%;
+                                                            max-width: 100%; 
+                                                            margin: 0 auto;
+                                                            padding: 0 20px;
+                                                        }
